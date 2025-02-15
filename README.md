@@ -9,7 +9,8 @@ This project demonstrates how to fine-tune a transformer-based model for Named E
 # Dataset
 
 The notebook utilizes a structured NER dataset in CSV format.
-
 The dataset contains text along with entity annotations.
-
 The Entities column is pre-labeled with entity tags.
+
+# DistilBERT
+The DistilBERT model was proposed in the blog post Smaller, faster, cheaper, lighter: Introducing DistilBERT, a distilled version of BERT, and the paper DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. DistilBERT is a small, fast, cheap and light Transformer model trained by distilling BERT base. It has 40% less parameters than google-bert/bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark.
